@@ -116,7 +116,7 @@
     });
   }
 
-  const text = "Love You";
+  const text = "❤️";
   const baseFontSize = isTouchDevice ? 24 : 42;
   const columns = Math.floor(canvas.width / (baseFontSize * 2));
   const drops = new Array(columns).fill(1);
@@ -195,7 +195,7 @@
       ctx.fillStyle = p.color;
       ctx.shadowColor = p.color;
       ctx.shadowBlur = 15;
-      ctx.fillText("TE ADORO", p.x, p.y);
+      ctx.fillText("💍", p.x, p.y);
       ctx.shadowBlur = 0;
       p.x += p.vx;
       p.y += p.vy;
