@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>Lluvia Gigante de Amor</title>
+  <title>بحبك</title>
   <style>
     body {
       margin: 0;
@@ -116,7 +116,7 @@
     });
   }
 
-  const text = "❤️";
+  const text = "بحبك";
   const baseFontSize = isTouchDevice ? 24 : 42;
   const columns = Math.floor(canvas.width / (baseFontSize * 2));
   const drops = new Array(columns).fill(1);
@@ -195,7 +195,7 @@
       ctx.fillStyle = p.color;
       ctx.shadowColor = p.color;
       ctx.shadowBlur = 15;
-      ctx.fillText("💍", p.x, p.y);
+      ctx.fillText("يروحي", p.x, p.y);
       ctx.shadowBlur = 0;
       p.x += p.vx;
       p.y += p.vy;
